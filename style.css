@@ -14,7 +14,7 @@ h1{
   font-size: 100px;
   letter-spacing: 4px;
   padding: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 200px;
   text-align: center;
   text-shadow: 0 0 20px rgb(255, 166, 1);
   flex: 1%;
@@ -23,9 +23,9 @@ h1{
 h3{
   font-size: 30px;
   letter-spacing: 2px;
-  padding: 10px;
+  padding: 50px;
   text-align: center;
-  margin-top: 300px;
+  margin-top: auto;
   margin-bottom: auto;
   text-shadow: 0 0 15px rgb(255, 255, 255);
   flex: 1%;
@@ -34,16 +34,19 @@ h3{
 h1, h2, h3, p, ul, li{
   color: azure;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  flex: 1%;
 }/*the font and color of all text*/
 
 h2{
   font-size: 45px;
+  flex: 1%;
 }/*the size of all sub-headings*/
 
 p, ul, li{
   font-size: 20px;
   font-family: sans-serif;
   line-height: 25px;
+  flex: 1%;
 }/*all paragraphs and list*/
 
 .color-slot{
@@ -175,3 +178,8 @@ nav{
   background: url(images/blue.jpg);
   height: 150px;
 }
+
+@media screen and (max-width: 800px){
+  .web, .google, .blue, .brain,
+   .screen, .skates, .project, header{
+    width: 100%;
