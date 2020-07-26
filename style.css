@@ -5,6 +5,7 @@ header{
 background: url(images/me-smiling.jpg);
 background-repeat: repeat;
 background-position: center;
+display: block;
 background-size: auto;
 height: 500px;/*the header picture of me*/
 flex: 1%;
@@ -25,7 +26,7 @@ h3{
   letter-spacing: 2px;
   padding: 50px;
   text-align: center;
-  margin-top: auto;
+  margin-top: 300;
   margin-bottom: auto;
   text-shadow: 0 0 15px rgb(255, 255, 255);
   flex: 1%;
@@ -39,7 +40,6 @@ h1, h2, h3, p, ul, li{
 
 h2{
   font-size: 45px;
-  flex: 1%;
 }/*the size of all sub-headings*/
 
 p, ul, li{
@@ -52,17 +52,21 @@ p, ul, li{
 .color-slot{
 text-align: left;
 padding: 20px 20px;
-height: 40px;
-margin-left: 50px;
-margin-top: 150px;
-margin-bottom: 50px; 
+height: auto;
+margin-left: auto;
+margin-right: auto;
+margin-top: 100px;
+margin-bottom: 20px; 
 flex: 1%;
 }/*controls just certain subheadings*/
 .brain{
-  width: 400px;
+  width: 300px;
   border-radius: 50px;
-  height: 300px;
-  margin-left: 300px;
+  height: 250px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
   margin-bottom: 20px;
   flex: 1%;
 }/*the brain bulb picture*/
@@ -77,17 +81,14 @@ flex: 1%;
   padding-left: 20px;
 }/*flex box*/
 .words{
-  margin-right: -200px;
-  margin-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
   flex: 1%;
 }
 
 nav{
   background: 0;
   box-shadow: 0 0 50px rgb(219, 150, 21);
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center;
   margin-top: 100px;
   margin-bottom: 100px;
   flex: 1%;
@@ -95,26 +96,26 @@ nav{
 
 .section{
   text-align: left;
-  margin-right: -200px;
-  margin-top: -150px;
+  margin-right: auto;
+  margin-top: auto;
   flex: 1%;
 }
 
 .skates{
   width: 400px;
   border-radius: 20px;
-  margin-left: 300px;
-  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 250px;
+  margin-bottom: auto;
   flex: 1%;
 }/*the skates picture*/
-.me{
-  height: 70px;
-}
 
 .service{
   text-align: center;
-  margin-top: 150px;
-  padding: 100px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 80px;
   flex: 1%;
 }/*the service section*/
 
@@ -128,18 +129,18 @@ nav{
   flex: 1%;
 }
 .screen{
-  width: 400px;
+  width: 300px;
   border-radius: 30px;
-  margin-top: 20px;
-  margin-bottom: -10px;
+  margin-top: auto;
+  margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
   flex: 1%;
 }
 
 .mail{
-  margin-bottom: -30px;
-  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-top: 50px;
   float: left;
   padding: 10px;
   font-size: 20px;
@@ -151,10 +152,10 @@ nav{
 .mail:active{color: midnightblue;}/*email*/
 
 .web{
-  width: 80px;
-  height: 80px;
-  float: right;
-  margin-top: 25px;
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin-top: 20px;
   margin-bottom: 20px;
   padding: 10px;
   flex: 1%;
@@ -167,8 +168,8 @@ nav{
   text-align: center;
 }
 .google{
-  width: 600px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
   border-radius: 20px;
   margin-bottom: 100px;
   flex: 1%;
@@ -176,7 +177,8 @@ nav{
 
 .blue{
   background: url(images/blue.jpg);
-  height: 150px;
+  height: 100px;
+  padding: 10px;
 }
 
 @media screen and (max-width: 800px){
