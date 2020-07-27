@@ -24,9 +24,8 @@ h1{
 h3{
   font-size: 30px;
   letter-spacing: 2px;
-  padding: 50px;
   text-align: center;
-  margin-top: 300;
+  margin-top: 600;
   margin-bottom: auto;
   text-shadow: 0 0 15px rgb(255, 255, 255);
   flex: 1%;
@@ -51,19 +50,20 @@ p, ul, li{
 
 .color-slot{
 text-align: left;
-padding: 20px 20px;
 height: auto;
 margin-left: auto;
 margin-right: auto;
-margin-top: 100px;
-margin-bottom: 20px; 
+margin-top: 50px;
+margin-bottom: 50px;
+display: flex; 
 flex: 1%;
 }/*controls just certain subheadings*/
 .brain{
-  width: 300px;
+  width: auto;
   border-radius: 50px;
-  height: 250px;
   display: flex;
+  height: 300px;
+  flex-direction: row;
   margin-left: auto;
   margin-right: auto;
   margin-top: auto;
@@ -78,7 +78,6 @@ flex: 1%;
 .item{
   flex: 1px;
   margin: auto;
-  padding-left: 20px;
 }/*flex box*/
 .words{
   margin-right: auto;
@@ -89,22 +88,31 @@ flex: 1%;
 nav{
   background: 0;
   box-shadow: 0 0 50px rgb(219, 150, 21);
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
   flex: 1%;
 }/*this is me section*/
 
 .section{
   text-align: left;
   margin-right: auto;
+  margin-left: 15px;
   margin-top: auto;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
   flex: 1%;
 }
 
 .skates{
   width: 400px;
+  height: auto;
   border-radius: 20px;
   margin-left: auto;
+  display: flex;
+  flex-direction: row;
   margin-right: auto;
   margin-top: 250px;
   margin-bottom: auto;
@@ -115,7 +123,9 @@ nav{
   text-align: center;
   margin-top: auto;
   margin-bottom: auto;
-  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
   flex: 1%;
 }/*the service section*/
 
@@ -127,7 +137,7 @@ nav{
   margin-bottom: 100px;
   background: url(images/orange.jpg);
   flex: 1%;
-}
+}/*the whole project section*/
 .screen{
   width: 300px;
   border-radius: 30px;
@@ -136,13 +146,13 @@ nav{
   margin-left: auto;
   margin-right: auto;
   flex: 1%;
-}
+}/*the screen shot*/
 
 .mail{
   margin-bottom: 60px;
-  margin-top: 50px;
+  margin-top: 30px;
   float: left;
-  padding: 10px;
+  padding: 5px;
   font-size: 20px;
   flex: 1%;
 }
@@ -154,22 +164,23 @@ nav{
 .web{
   width: 50px;
   height: 50px;
-  display: block;
+  float: right;
   margin-top: 20px;
   margin-bottom: 20px;
-  padding: 10px;
+  padding: 5px;
   flex: 1%;
 
 }
 .web:hover{
   opacity: 0.5;
-}
+}/*the links at the bottom of page*/
 .font{
   text-align: center;
 }
 .google{
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  max-width: fit-content;
+  height: 250px;
   border-radius: 20px;
   margin-bottom: 100px;
   flex: 1%;
@@ -181,7 +192,6 @@ nav{
   padding: 10px;
 }
 
-@media screen and (max-width: 800px){
-  .web, .google, .blue, .brain,
-   .screen, .skates, .project, header{
-    width: 100%;
+@media (max-width: 1000px){
+  header, main, article, footer{max-width: 100%}
+   }
