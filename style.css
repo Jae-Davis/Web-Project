@@ -51,7 +51,7 @@ p, ul, li{
 .color-slot{
 text-align: left;
 height: auto;
-margin-left: auto;
+margin-left: 20px;
 margin-right: auto;
 margin-top: 50px;
 margin-bottom: 50px;
@@ -193,5 +193,5 @@ nav{
 }
 
 @media (max-width: 1000px){
-  header, main, article, footer{max-width: 100%}
+  h1, h2, h3, div, p, ul, li, img{max-width: 100%}
    }
