@@ -7,25 +7,24 @@ background-repeat: repeat;
 background-position: center;
 display: block;
 background-size: auto;
-height: 500px;/*the header picture of me*/
+height: 600px;
 flex: 1%;
-}
+}/*the header picture of me*/
 
 h1{
-  font-size: 100px;
-  letter-spacing: 4px;
-  padding: 10px;
-  margin-bottom: 200px;
+  font-size: 80px;
+  letter-spacing: 2px;
+  padding: 20px;
+  margin-bottom: 300px;
   text-align: center;
   text-shadow: 0 0 20px rgb(255, 166, 1);
   flex: 1%;
 }/*Jae-Davis*/
 
 h3{
-  font-size: 30px;
+  font-size: 25px;
   letter-spacing: 2px;
   text-align: center;
-  margin-top: 600;
   margin-bottom: auto;
   text-shadow: 0 0 15px rgb(255, 255, 255);
   flex: 1%;
@@ -38,164 +37,227 @@ h1, h2, h3, p, ul, li{
 }/*the font and color of all text*/
 
 h2{
-  font-size: 45px;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 50px;
 }/*the size of all sub-headings*/
 
 p, ul, li{
-  font-size: 20px;
+  font-size: 18px;
+  text-align: center;
   font-family: sans-serif;
-  line-height: 25px;
   flex: 1%;
-}/*all paragraphs and list*/
-
+}
 li{
   list-style-position: inside;
-  list-style: square;
-}
-
-ul{
-  text-align: left;
-}
-
+  margin-left: -40px;
+}/*all paragraphs and list*/
 
 .skates{
-  width: 350px;
-  border-radius: 50px;
+  width: 300px;
+  border-radius: 10px;
   display: block;
-  
-  height: auto;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+  margin-top: 10px;
   flex: 1;
-}/*the brain bulb picture*/
+}/*the skates picture*/
 
 .group{
   display: flex;
   flex-direction: column;
-
 }
 .item{
   flex: 1px;
-  margin: 30px;
+  margin: 20px;
 }/*flex box*/
 
-.words{
+.service{
   text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 80px;
-  margin-top: 80px;  
+  margin-top: 40px;
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
   flex: 1%;
-}
+}/*the service section*/
 
 nav{
   background: 0;
   box-shadow: 0 0 50px rgb(219, 150, 21);
   margin-top: auto;
   margin-bottom: auto;
-  margin-left: auto;
-  margin-right: auto;
   flex: 1%;
-}/*this is me section*/
-
-.section{
-  text-align: left;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: auto;
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: column;
-  flex: 1%;
-}
-
-
-.service{
-  text-align: center;
-  margin-top: auto;
-  margin-bottom: auto;
-  display: flex;
-  flex-direction: column;
-  padding: 50px;
-  flex: 1%;
-}/*the service section*/
+}/*projects section*/
 
 .project{
   text-align: center;
   display: flex;
   flex-direction: column;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 80px;
+  margin-bottom: 80px;
   background: url(images/orange.jpg);
   flex: 1%;
 }/*the whole project section*/
 .screen{
-  width: 300px;
+  width: 280px;
   border-radius: 30px;
-  margin-top: auto;
+  margin-top: 20px;
   margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
   flex: 1%;
 }/*the screen shot*/
 
-.mail{
-  margin-bottom: 60px;
-  margin-top: 30px;
-  float: left;
+.contact{
+  text-align: center;
+  margin: 30px;
+  margin-top: 100px;
+}/*contact word*/
+
+form{
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: azure;
+  line-height: 30px;
+}/*the form field*/
+textarea, input[type=text]{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button{
   padding: 5px;
-  font-size: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+  margin-left: 100px;
+  margin-right: 100px;
+}/*submit button*/
+
+.google{
+  width: 300px;
+  height: 250px;
+  border-radius: 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  flex: 1%;
+}/*the google map*/
+
+.mail{
+  margin-bottom: 30px;
+  margin-top: 40px;
+  float: left;
+  font-size: 18px;
   flex: 1%;
 }
 .mail:link{color: rgb(255, 255, 255);}
 .mail:visited{color: rgb(255, 255, 255);}
 .mail:hover{color: rgb(59, 205, 224);}
-.mail:active{color: midnightblue;}/*email*/
+.mail:active{color: midnightblue;}
+/*email*/
 
 .web{
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   float: right;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 2px;
   flex: 1%;
-
 }
 .web:hover{
   opacity: 0.5;
-}/*the links at the bottom of page*/
-.font{
-  text-align: center;
-}
-.google{
-  width: 400px;
-  max-width: fit-content;
-  height: 250px;
-  border-radius: 20px;
-  margin-bottom: 100px;
-  flex: 1%;
-}
+}/*the github & linkedin links at the bottom of page*/
 
-.wrapper {
-  width: 100%;
-}
 
 .blue{
   background: url(images/blue.jpg);
-  height: 100px;
+  height: 80px;
   padding: 10px;
-}
+}/*the blue background at bottom*/
 
-@media all and(min-width: 800px){
-  .wrapper{
-    width: 80%;
+@media all and (min-width: 800px){
+  h3{
+  padding: 100px;
+  margin-bottom: 200px;
+  }/*software engineer*/
+
+  h2{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    }/*sub-headings*/
+
+  .words{
+    margin-bottom: 80px;
+  }/*intro section*/
+
+  .word{
+    text-align: left;
+    margin-left: 60px;
+  }
+  .fact{
+   text-align: left;
+   margin-left: 50px;
+   margin-bottom: 10px;
+  }/*the connecting with me*/
+
+  .group{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .skates{
+    width: 90%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 20px;
+    margin-left: 10px;
+  }/*skates picture*/
+
+  .screen{
+    width: 500px;
+  }/*screen shot pictures*/
+
+  .soon{
+    margin-bottom: 80px;
+  }/*the coming soon words*/
+
+  form{
     margin: auto;
-    }
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  button{
+    margin-left: 40%;
+    margin-right: 40%;
+  }/*the contact fill out form*/
 
-    .group{
-      flex-direction: row;
-    }
-   }
+  .google{
+   height: 400px;
+   width: 500px;
+  }/*the google maps section*/
+
+  .mail, .web{
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+  }
+  .web{
+    margin-top: 5px;
+    padding: 5px;
+    margin-right: 5px;
+  }
+  .mail{
+    margin-left: 20px;
+    margin-top: 20px;
+  }/*footer section*/
+}
 
